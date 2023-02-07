@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+   
+}
+.start{
+    padding: 60px;
+}
+.scr-btn, .screenshot{
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.scr-btn{
+    color: aliceblue;
+    background-color: rgb(1, 57, 160);
+    height: 45px;
+    width: 30%;
+    margin: 50px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    transform: translate(-50%,-50%);
+}
+.scr-btn:hover{
+    background-color: rgb(236, 246, 255);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(109, 109, 219);
+    
+}
+
+.screen-preview{
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.74);
+    height: 100%;
+    width: 100%;
+
+}
+.showimg{
+    display: block !important;
+}
+.screen-preview .screenshot{
+    background-color: white;
+    width: 70%;
+    top: 50%;
+    aspect-ratio: 16/9;
+}
+.screenshot img{
+    width: 100%;
+
+}
+#close-btn{
+position: absolute;
+right: -3%;
+cursor: pointer;
+color: white;
+font-size: 1.1rem;
+}
+#download-btn{
+position: absolute;
+right: -7%;
+cursor: pointer;
+color: white;
+font-size: 1.1rem;
+}
